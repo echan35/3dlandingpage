@@ -31,7 +31,12 @@ body {
 /**
  * Add the correct display in IE 9-.
  */
-
+.header {
+    background: #191919;
+    width: 100%;
+    top: 0;
+    position: fixed;
+}
 article,
 aside,
 footer,
@@ -170,9 +175,21 @@ dfn {
  * Add the correct background and color in IE 9-.
  */
 
+li {
+    list-style: none;
+    float: left;
+    margin-left: 30px;
+    padding-top: 30px;
+}
+
 mark {
   background-color: #ff0;
   color: #000;
+}
+
+.nav {
+    float: right;
+    
 }
 
 /**

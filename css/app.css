@@ -15,15 +15,42 @@ body {
 }
 
 /* START GLOBAL CONTAINER STYLES*/
+/* STICKY HEADER STYLE */
+.container{
+    width: 960px;
+    margin: 0 auto;
+}
+
+
+.header {
+    background: #1e1e1e;
+    width: 100%;
+    top: 0;
+    position: fixed;
+}
+
+
+
+/* LIST STYLE */
+li {
+    list-style: none;
+    float: left;
+    margin-left: 30px;
+    padding-top: 18px;
+}
+/* END OF LIST STYLE */
+
+
+
 
 /* START GLOBAL FONT STYLES*/
 h1{
     font-family: open sans, sans-serif;
     color: white;
     font-weight: 700;
-    font-size: calc(3.0rem + 0.4vw);
+    font-size: calc(8.0rem + 0.4vw);
     line-height: 1.1;
-    max-width: calc(28rem + 0.5vw);
+    max-width: 100%;
     margin-bottom: 0.5rem;
    }
 
@@ -38,15 +65,38 @@ h2{
     margin-bottom: 0.5rem;
 }
 
+
 h3{
     font-family: open sans, sans-serif;
     color: white;
     font-weight: 300;
     font-size: calc(0.9rem + 0.4vw);
     line-height: 1.5  ;
-    max-width: calc(28rem + 0.5vw);
+    max-width: calc(22rem + 0.5vw);
     margin-bottom: 0.5rem;
    }
+
+
+h4{
+    font-family: open sans, sans-serif;
+    color: white;
+    font-weight: 300;
+    font-size: calc(0.9rem + 0.4vw);
+    line-height: 1.5  ;
+    margin-bottom: 0.5rem;
+    
+}
+
+h5{
+    font-family: open sans, sans-serif;
+    color: white;
+    font-weight: 300;
+    font-size: calc(0.8rem + 0.3vw);
+    line-height: 1.5  ;
+    margin-bottom: 0.5rem;
+    
+}
+
 
 /* END OF START GLOBAL FONT STYLES*/
 
@@ -105,7 +155,6 @@ h3{
 }
 
 
-
 /* END OF NAVIGATION BAR*/
 
 
@@ -114,7 +163,7 @@ h3{
     background-color: #050917;
     background-repeat: no-repeat !important;
     background-size: cover;
-    height: 95vh;
+    height: 250vh;
     width: 100%;
     background-position: center !important;
     margin: 0;
@@ -127,11 +176,18 @@ h3{
     }
 }
 
+.hero_image{
+    display: block;
+    margin:auto;
+    top:50%;
+    padding-top: 12rem;
+    max-width:100%;
+}
 
 #text_hero {
     position: absolute;
-    top: 50%;
-    left: 70%;
+    top: 40%;
+    right: 50%;
     margin: -6.25em 0 0 -9.38em; /* this defines the position for the hero text*/
     background-color: transparent; /* used colored for detecting problems*/
     height: 31.5em;
@@ -175,44 +231,74 @@ h3{
 @media only screen and (max-width : 480px) {
 #arrow_container {
     height:2em;
+    
+    
     }
 }
+
+/* START OF TIMELINE */
+
+#timeline{
+    position: absolute;
+    background-color: #000000; /* used colored for detecting problems*/
+    height: 55rem;
+    width:100%;
+}
+
+.timeline_image{
+    display:block;
+    margin-left: auto;
+    margin-right:auto;
+    padding-top:8rem;
+}
+
+.timeline_image2{
+    display:block;
+    margin-left: auto;
+    margin-right:auto;
+    padding:3rem;
+}
+
+.timeline_image3{
+    display:block;
+    margin-left: auto;
+    margin-right:auto;
+}
+
+.vertical-line{
+    width: 2px;
+    background-color: white;
+    height: 100%;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+
+/* END OF TIMELINE */
 
 
 /* START OF CASE 1 SECTION HOMEPAGE*/
 
 #case1 {
     background-color: black;
-    height: 95vh;
+    height: 55rem;
     width: 100%;
-    position: relative;
 }
 
 .case1text {
     position: relative;
-    top: 50%;
-    left: 70%;
-    margin: -6.25em 0 0 -9.38em; /* this defines the position for the hero text*/
-    background-color: transparent; /* used colored for detecting problems*/
-    height: 31.5em;
+    left: 60%;
+    padding-top: 16rem;
 }
 
 .case_image_container {
     position:relative;
     margin-left: 0;
-    background-color: red;
     margin-bottom: 1em;
-
 }
 
-.case_image {
-    height:auto;
-    width: 40em;
-    position: sticky;
-    margin-left: 5;
-    border: 0;
-    font-size: 1.4em;
-
+.case1image {
+    max-width: 100%;
 }
 /* END OF CASE 1 SECTION HOMEPAGE*/
 
@@ -222,10 +308,24 @@ h3{
 
 #case2 {
     background: #050917;
-    height: 95vh;
+    height: 80vh;
     width: 100%;
 }
+.case2text {
+    background-color: transparent; /* used colored for detecting problems*/
+    position: absolute;
+    padding-top: 10rem;
+}
 
+.case_image2 {
+    height:auto;
+    max-width: 100%;
+    border: 0;
+    padding-top:9rem;
+    margin-left:25em;
+    position: absolute;
+
+}
 /* END OF CASE 2 SECTION HOMEPAGE*/
 
 
@@ -238,15 +338,40 @@ h3{
     width: 100%;
 }
 
+
+.case3text {
+    position: relative;
+    left: 60%;
+    padding-top: 16rem;
+}
+
+.case3image {
+    max-width: 100%;
+
+}
+
 /* END OF CASE 3 SECTION HOMEPAGE*/
 
 
 /* START OF CASE 4 SECTION HOMEPAGE*/
 
 #case4 {
-    background: #050917;
-    height: 95vh;
+    background-color: #ff9b0d;
+    background-image: url("file:///C:/Users/Eva/Desktop/3dlandingpage/images/yellow_background1.png");
+    background-size: auto;
+    height: 100vh;
     width: 100%;
+}
+
+.case4text{
+    background-color: black;
+    height: 100%;
+    margin-top: 19rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 28rem;
+    padding-right:1rem;
+    float: right;
 }
 
 /* END OF CASE 4 SECTION HOMEPAGE*/
@@ -255,9 +380,35 @@ h3{
 /* START OF CASE 5 SECTION HOMEPAGE*/
 
 #case5 {
-    background: #ff9b0d;
-    height: 95vh;
+    background: #050717; 
+    background-image: url("file:///C:/Users/Eva/Desktop/3dlandingpage/images/believe2.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 130vh;
+    max-width: 100%;
+}
+
+.case5_text{
+    text-align: center;
+    padding-top: 20rem;
+    max-width: 100%;
+}
+
+/* END OF CASE 5 SECTION HOMEPAGE*/
+
+
+/* START OF CASE 5 SECTION HOMEPAGE*/
+
+#case6 {
+    background: #333e48; 
+    height: 15vh;
     width: 100%;
+}
+
+.case6_text{
+    text-align:center;
+    padding-top: 2rem;
+    max-width:100%;
 }
 
 /* END OF CASE 5 SECTION HOMEPAGE*/

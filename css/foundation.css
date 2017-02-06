@@ -3729,7 +3729,7 @@ a.thumbnail {
         transform: translateY(-50%); }
 
 .top-bar {
-  padding: 0.5rem; }
+  padding: 0.1rem; }
   .top-bar::before, .top-bar::after {
     display: table;
     content: ' '; }

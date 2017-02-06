@@ -26,17 +26,13 @@ html {
 
 body {
   margin: 0;
+  background-color: #050917;
 }
 
 /**
  * Add the correct display in IE 9-.
  */
-.header {
-    background: #191919;
-    width: 100%;
-    top: 0;
-    position: fixed;
-}
+
 article,
 aside,
 footer,
@@ -50,11 +46,6 @@ section {
  * Correct the font size and margin on `h1` elements within `section` and
  * `article` contexts in Chrome, Firefox, and Safari.
  */
-
-h1 {
-  font-size: 2em;
-  margin: 0.67em 0;
-}
 
 /* Grouping content
    ========================================================================== */
@@ -174,13 +165,6 @@ dfn {
 /**
  * Add the correct background and color in IE 9-.
  */
-
-li {
-    list-style: none;
-    float: left;
-    margin-left: 30px;
-    padding-top: 30px;
-}
 
 mark {
   background-color: #ff0;

@@ -388,7 +388,7 @@ h6{
     background-color: #ff9b0d;
     background-image: url(images/yellow_background1.png);
     background-size: auto;
-    height: 100vh;
+    height: 110vh;
     width: 100%;
 }
 
@@ -396,11 +396,25 @@ h6{
     background-color: black;
     height: 100%;
     margin-top: 19rem;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-    padding-left: 28rem;
-    padding-right:1rem;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    padding-left: 30rem;
+    padding-right:2rem;
     float: right;
+}
+
+.wrapper{
+  display: inline-block;
+  position:relative;
+}
+.purple-img{
+    position:absolute;
+    max-width: 100%;
+    display:block;
+    margin-left: auto;
+    margin-right:auto;
+    padding-left:35rem;
+    padding-top:9rem;
 }
 
 /* END OF CASE 4 SECTION HOMEPAGE*/

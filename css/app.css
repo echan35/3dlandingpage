@@ -187,7 +187,7 @@ h6{
 /* START HERO SECTION HOMEPAGE*/
 #hero {
     background-color: #050917;
-    background-image: url("file:///C:/Users/Eva/Desktop/3dlandingpage/images/background.jpg");
+    background-image: url(images/background.jpg);
     background-repeat: no-repeat !important;
     height: 250vh;
     width: 100%;
@@ -386,7 +386,7 @@ h6{
 
 #case4 {
     background-color: #ff9b0d;
-    background-image: url("file:///C:/Users/Eva/Desktop/3dlandingpage/images/yellow_background1.png");
+    background-image: url(images/yellow_background1.png);
     background-size: auto;
     height: 100vh;
     width: 100%;
@@ -410,7 +410,7 @@ h6{
 
 #case5 {
     background: #050717; 
-    background-image: url("file:///C:/Users/Eva/Desktop/3dlandingpage/images/believe2.jpg");
+    background-image: url(images/believe2.jpg);
     background-repeat: no-repeat;
     background-position: center;
     height: 130vh;

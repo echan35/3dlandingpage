@@ -2,10 +2,6 @@
 
 
 /* START GLOBAL CONTAINER STYLES*/
-body {
-  margin-top: 2rem;
-}
-
 
 .fullWidth {
    width: 100%;
@@ -49,7 +45,7 @@ h1{
     color: white;
     font-weight: 700;
     font-size: calc(8.0rem + 0.4vw);
-    line-height: 1.1;
+    line-height: 8rem;
     max-width: 100%;
     margin-bottom: 0.5rem;
    }
@@ -97,8 +93,38 @@ h5{
     
 }
 
+h6{
+    font-family: open sans, sans-serif;
+    color: orange;
+    font-weight: 600;
+    font-size: calc(1.3rem + 0.3vw);
+    line-height: 1.5  ;
+    position: relative;
+}
 
 /* END OF START GLOBAL FONT STYLES*/
+
+/* START OF BUTTON STYLES */
+
+.button{
+    background-color: orange;
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family: open sans, sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+
+/* END OF BUTTON STYLES */
+
+
 
 
 /* START OF NAVIGATION BAR*/
@@ -249,20 +275,21 @@ h5{
     display:block;
     margin-left: auto;
     margin-right:auto;
-    padding-top:8rem;
+    padding: 2rem;
 }
 
 .timeline_image2{
     display:block;
     margin-left: auto;
     margin-right:auto;
-    padding:3rem;
+    padding:2rem;
 }
 
 .timeline_image3{
     display:block;
     margin-left: auto;
     margin-right:auto;
+    padding: 2rem;
 }
 
 .vertical-line{

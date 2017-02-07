@@ -47,7 +47,6 @@ h1{
     font-size: calc(8.0rem + 0.4vw);
     line-height: 8rem;
     max-width: 100%;
-    margin-bottom: 0.5rem;
    }
 
 
@@ -101,6 +100,29 @@ h6{
     line-height: 1.5  ;
     position: relative;
 }
+
+h7{
+    font-family: open sans, sans-serif;
+    color: white;
+    font-weight: 300;
+    font-size: calc(0.7rem + 0.4vw);
+    line-height: 1.5  ;
+    max-width: calc(22rem + 0.5vw);
+    margin-bottom: 0.5rem;
+    position: relative;
+   }
+
+h8{
+    font-family: open sans, sans-serif;
+    color: black;
+    font-weight: 300;
+    font-size: calc(0.7rem + 0.4vw);
+    line-height: 1.5  ;
+    max-width: calc(22rem + 0.5vw);
+    margin-bottom: 0.5rem;
+    position:relative;
+   }
+
 
 /* END OF START GLOBAL FONT STYLES*/
 
@@ -413,10 +435,28 @@ h6{
     display:block;
     margin-left: auto;
     margin-right:auto;
-    padding-left:35rem;
+    padding-left:36rem;
     padding-top:9rem;
 }
 
+
+.case4text_within{
+    display:block;
+    position:relative;
+    word-wrap:break-word;
+    width: 20rem;
+    margin-top: -26rem;
+    padding-right:5rem;
+}
+
+.case4text_within2{
+    display: block;
+    position:relative;
+    word-wrap:break-word;
+    width: 20rem;
+    margin-top: 18rem;
+    padding-right:5rem;
+}
 /* END OF CASE 4 SECTION HOMEPAGE*/
 
 

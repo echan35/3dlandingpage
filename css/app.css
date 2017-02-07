@@ -187,8 +187,8 @@ h6{
 /* START HERO SECTION HOMEPAGE*/
 #hero {
     background-color: #050917;
+    background-image: url("file:///C:/Users/Eva/Desktop/3dlandingpage/images/background.jpg");
     background-repeat: no-repeat !important;
-    background-size: cover;
     height: 250vh;
     width: 100%;
     background-position: center !important;
@@ -349,7 +349,7 @@ h6{
     height:auto;
     max-width: 100%;
     border: 0;
-    padding-top:9rem;
+    padding-top: 3rem;
     margin-left:25em;
     position: absolute;
 
